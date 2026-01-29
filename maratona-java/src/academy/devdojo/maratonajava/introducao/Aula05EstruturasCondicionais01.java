@@ -13,8 +13,8 @@ public class Aula05EstruturasCondicionais01 {
             System.out.println("Não autorizado");
         }
         boolean c = false;
-        if(c == true) {
             System.out.println("Dentro de algo que nunca deve ser feito");
+            if(c == true) {
         }
 
         System.out.println("Fora do IF");
