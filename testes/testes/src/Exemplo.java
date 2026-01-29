@@ -11,7 +11,7 @@ public class Exemplo {
         System.out.print("Informe um CPF (somente números): ");
         CPF = ler.next();
 
-        System.out.print("\nResultado: ");
+        System.out.print("\nResultado; ");
         if (validaCPF.isCPF(CPF)) {
             System.out.println(validaCPF.imprimeCPF(CPF));
         } else {
